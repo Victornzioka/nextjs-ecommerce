@@ -13,7 +13,7 @@ const Cart = () => {
   const { totalPrice, totalQuantities, cartItems, setShowCart, toggleCartItemQuanitity, onRemove } = useStateContext();
 
   const handleCheckout = async () => {
-    alert('Mpesa & Card configuration underway')
+    alert('Mpesa & Card configuration in Django underway')
     // const stripe = await getStripe();
 
     // const response = await fetch('/api/stripe', {
